@@ -65,15 +65,17 @@
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "qn9vz5j0jy",
-    "global_footer_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-163141796-2\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-163141796-2');\n</script>"
+    "mbrsiteDomain": "dyn1l80zi8",
+    "global_footer_custom": "",
+    "global_header_custom": "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WGV37Z7');</script>",
+    "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WGV37Z7\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->"
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home | Medhanet Prescription Medicine Ordering and Delivery",
-        "meta_descr": "Home | Medhanet Prescription Medicine Ordering and Delivery",
+        "title": "Home | MedhanET Electronic Prescription and Drug Search Engine",
+        "meta_descr": "Home | MedhanET Electronic Prescription and Drug Search Engine",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -1958,8 +1960,8 @@
     },
     "contact-us.html": {
       "settings": {
-        "meta_descr": "Contact Us | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Contact Us | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Contact Us | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Contact Us | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 11
       },
       "components": [
@@ -2591,8 +2593,8 @@
     },
     "partners.html": {
       "settings": {
-        "meta_descr": "Partners | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Partners | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Partners | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Partners | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 10
       },
       "components": [
@@ -3211,8 +3213,8 @@
     },
     "home-delivery.html": {
       "settings": {
-        "meta_descr": "Home Delivery | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Home Delivery | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Home Delivery | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Home Delivery | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 9
       },
       "components": [
@@ -3781,8 +3783,8 @@
     },
     "prescription-reminder.html": {
       "settings": {
-        "meta_descr": "Prescription Reminder Service | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Prescription Reminder Service | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Prescription Reminder Service | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Prescription Reminder Service | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 8
       },
       "components": [
@@ -4351,8 +4353,8 @@
     },
     "patient-medication-review.html": {
       "settings": {
-        "meta_descr": "Patient Medication Review | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Patient Medication Review | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Patient Medication Review | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Patient Medication Review | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 7
       },
       "components": [
@@ -4921,8 +4923,8 @@
     },
     "order-prescription.html": {
       "settings": {
-        "meta_descr": "Order Prescription Medicines | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Order Prescription Medicines | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Order Prescription Medicines | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Order Prescription Medicines | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 6
       },
       "components": [
@@ -5491,8 +5493,8 @@
     },
     "patient-services.html": {
       "settings": {
-        "meta_descr": "Patient Services | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "Patient Services | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "Patient Services | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "Patient Services | MedhanET Electronic Prescription and Drug Search Engine",
         "order": 5
       },
       "components": [
@@ -6094,8 +6096,8 @@
     },
     "about-us.html": {
       "settings": {
-        "meta_descr": "About Us | Medhanet Prescription Medicine Ordering and Delivery",
-        "title": "About Us | Medhanet Prescription Medicine Ordering and Delivery",
+        "meta_descr": "About Us | MedhanET Electronic Prescription and Drug Search Engine",
+        "title": "About Us |  MedhanET Electronic Prescription and Drug Search Engine",
         "order": 4
       },
       "components": [
