@@ -1112,6 +1112,14 @@ section.lazy-placeholder:after {
   background-color: #ffffffcc;
   padding-left: 40px;
 }
+.cid-s7P5l20kir .search-icon {
+  position: absolute;
+  top: 15px;
+  right: 40px;
+  cursor: pointer;
+  border: 0px;
+  background: transparent;
+}
 .cid-s7PnMscdWv {
   padding-top: 60px;
   padding-bottom: 60px;

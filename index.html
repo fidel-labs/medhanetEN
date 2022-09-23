@@ -83,13 +83,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     አማርኛ</strong></a></div>
         </div>
     </nav>
-    <script>
-    function myFunction(e) {
-        const value = document.getElementById("search").value
-        console.log('my function', value)
-//         window.location.href = 'https://app.medhan.et/find-drug?q='+value
-}
-</script>
 </section>
 
 <section class="header9 cid-s7P5l20kir mbr-fullscreen mbr-parallax-background" id="header9-2">
@@ -106,7 +99,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <p class="mbr-text align-left pb-3 mbr-fonts-style display-5">
                 Open 24 Hours / 365 Days
             </p>
+            <div style="position:relative;">
             <input placeholder="FIND MEDICINES NEAR YOU" type="text" name="search" data-form-field="Search" class="form-control search-input display-7" onchange="myFunction()" id="search-input">
+            <button onclick="myFunction()" class="search-icon"><span class="fa fa-search "></span></button>
+            </div>
             
         </div>
     </div>
