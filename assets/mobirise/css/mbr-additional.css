@@ -1119,6 +1119,7 @@ section.lazy-placeholder:after {
   cursor: pointer;
   border: 0px;
   background: transparent;
+  color: black;
 }
 .cid-s7PnMscdWv {
   padding-top: 60px;
