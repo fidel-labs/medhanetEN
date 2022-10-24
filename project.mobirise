@@ -65,7 +65,7 @@
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
     "publishChangesOnly": true,
-    "mbrsiteDomain": "9agspzrhdq",
+    "mbrsiteDomain": "b1pnbln9q6",
     "global_footer_custom": "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WGV37Z7');</script>",
     "global_header_custom": "",
     "global_after_body": "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-WGV37Z7\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>",
@@ -568,7 +568,7 @@
           "_sourceTheme": "mobirise4",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script>\n    function goToSearchWithValue() {\n        const input = document.getElementById(\"search-input\");\n        const searchButton = document.getElementById(\"search-button\");\n        searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value\n    }\n</script>"
+            "<script>\n    function goToSearchWithValue() {\n        const input = document.getElementById(\"search-input\");\n        const searchButton = document.getElementById(\"search-button\");\n        searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value;\n        \n        let params = new URLSearchParams(window.location.pathname);\n        const utm_source = params.get('utm_source');\n        if(utm_source) {\n            searchButton.href = searchButton.href + '&utm_source='+utm_source;\n        }\n        const utm_medium = params.get('utm_medium');\n        if(utm_medium) {\n            searchButton.href = searchButton.href + '&utm_medium='+utm_medium;\n        }\n        const utm_campaign = params.get('utm_campaign');\n        if(utm_campaign) {\n            searchButton.href = searchButton.href + '&utm_campaign='+utm_campaign;\n        }\n        \n    }\n</script>"
           ],
           "_protectedParams": [],
           "_global": false,

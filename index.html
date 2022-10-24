@@ -118,7 +118,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     function goToSearchWithValue() {
         const input = document.getElementById("search-input");
         const searchButton = document.getElementById("search-button");
-        searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value
+        searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value;
+        
+        let params = new URLSearchParams(window.location.pathname);
+        const utm_source = params.get('utm_source');
+        if(utm_source) {
+            searchButton.href = searchButton.href + '&utm_source='+utm_source;
+        }
+        const utm_medium = params.get('utm_medium');
+        if(utm_medium) {
+            searchButton.href = searchButton.href + '&utm_medium='+utm_medium;
+        }
+        const utm_campaign = params.get('utm_campaign');
+        if(utm_campaign) {
+            searchButton.href = searchButton.href + '&utm_campaign='+utm_campaign;
+        }
+        
     }
 </script>
 </section>
