@@ -121,6 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value;
         
         let params = new URLSearchParams(window.location.pathname);
+        console.log(window.location.pathname);
         const utm_source = params.get('utm_source');
         if(utm_source) {
             searchButton.href = searchButton.href + '&utm_source='+utm_source;
