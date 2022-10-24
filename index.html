@@ -120,8 +120,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         const searchButton = document.getElementById("search-button");
         searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value;
         
-        let params = new URLSearchParams(window.location.pathname);
-        console.log(window.location.pathname);
+        const url = new URL(window.location.href);
+        const params = url.searchParams;
+        
+        console.log(window.location.href);
         const utm_source = params.get('utm_source');
         if(utm_source) {
             searchButton.href = searchButton.href + '&utm_source='+utm_source;
