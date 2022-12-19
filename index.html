@@ -5,10 +5,6 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:image:src" content="">
-  <meta property="og:image" content="">
-  <meta name="twitter:title" content="Home | MedhanET Electronic Prescription and Drug Search Engine">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <link rel="shortcut icon" href="assets/images/medhanet-vertical-white-logo-192x155.png" type="image/x-icon">
   <meta name="description" content="Home | MedhanET Electronic Prescription and Drug Search Engine">
@@ -17,6 +13,7 @@
   <title>Home | MedhanET Electronic Prescription and Drug Search Engine</title>
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
   <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
+  <link rel="stylesheet" href="assets/FontAwesome/css/font-awesome.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
@@ -100,12 +97,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Open 24 Hours / 365 Days
             </p>
             <div style="position:relative;">
-            <input placeholder="FIND MEDICINES NEAR YOU" type="text" name="search" data-form-field="Search" class="form-control search-input display-7" id="search-input" onkeyup="goToSearchWithValue()">
-            <a href="https://app.medhan.et/find-drug" id="search-button" class="search-icon" data-target="#searchInput">
+            <input placeholder="FIND MEDICINES NEAR YOU" type="text" name="search" data-form-field="Search" class="form-control search-input display-7" onchange="myFunction()" id="search-input">
+            <button onclick="myFunction()" class="search-icon" type="button" data-target="#searchInput">
                 <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30px" height="30px"><path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path></svg>
-                Search</a>
+                </button>
             </div>
-            
+            <div class="mbr-section-btn align-left"><a class="btn btn-md btn-success display-4" href="https://app.medhan.et">SEARCH</a></div>
         </div>
     </div>
 
@@ -115,29 +112,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </a>
     </div>
     <script>
-    function goToSearchWithValue() {
-        const input = document.getElementById("search-input");
-        const searchButton = document.getElementById("search-button");
-        searchButton.href = 'https://app.medhan.et/find-drug?q='+input.value;
-        
-        const url = new URL(window.location.href);
-        const params = url.searchParams;
-        
-        console.log(window.location.href);
-        const utm_source = params.get('utm_source');
-        if(utm_source) {
-            searchButton.href = searchButton.href + '&utm_source='+utm_source;
-        }
-        const utm_medium = params.get('utm_medium');
-        if(utm_medium) {
-            searchButton.href = searchButton.href + '&utm_medium='+utm_medium;
-        }
-        const utm_campaign = params.get('utm_campaign');
-        if(utm_campaign) {
-            searchButton.href = searchButton.href + '&utm_campaign='+utm_campaign;
-        }
-        
-    }
+    function myFunction(e) {
+        const value = document.getElementById("search-input").value
+        window.location.href = 'https://app.medhan.et/find-drug?q='+value
+}
 </script>
 </section>
 
@@ -367,8 +345,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </section>
 
 
-<script src="assets/popper/popper.min.js"></script>
-  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+<script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="assets/tether/tether.min.js"></script>
   <script src="assets/smoothscroll/smooth-scroll.js"></script>
