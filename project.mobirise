@@ -64,7 +64,7 @@
     "gdpr": false,
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\nDisallow: /cgi-bin\n",
-    "publishChangesOnly": true,
+    "publishChangesOnly": false,
     "mbrsiteDomain": "b1pnbln9q6",
     "global_footer_custom": "<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-WGV37Z7');</script>",
     "global_header_custom": "",
